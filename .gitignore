@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pdf
+!Guia_de_Estudos.pdf
+gabarito_escudo/
+saidas/
+.venv_novo/
+.venv_antigo*/

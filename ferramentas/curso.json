@@ -1,0 +1,11 @@
+{
+ "pkg_praticar": "meu_escudo",
+ "pkg_resolvidos": "gabarito_escudo",
+ "livro": "AI, Machine Learning and Deep Learning: A Security Perspective",
+ "subtitulo": "Fei Hu e Xiali Hei (orgs., edição em inglês) — o laboratório de segurança de IA",
+ "lema": "Menos leitura, mais construção: cada capítulo é uma missão no laboratório de segurança de IA da Fortaleza Digital. Você ataca os próprios modelos (exemplos adversariais, envenenamento, backdoor, federado malicioso, RL enganado), defende com treino min-max, fusão, saneamento e certificação, e usa ML a favor da segurança: detecção de intrusão, inundação em NDN, antifraude e phishing explicável.",
+ "pasta": "ai_ml_security",
+ "pdf": "Downloads/Telegram Desktop/AI, Machine Learning and Deep Learning.pdf",
+ "extra_html": "<h3>Ataque e defesa, só nos seus modelos</h3><p>O livro é uma coletânea de 19 capítulos de autores diferentes. A trilha agrupa os temas em 10 missões práticas. Todos os ataques são feitos contra modelos que você mesmo treina, com dados fictícios (<code>comum/dados.py</code>), como faz um time de red team. Nada aqui toca sistemas de terceiros.</p><div class='box aviso'>Os capítulos 6 e 7 usam o <code>ataques.py</code> do capítulo 1 e o <code>envenenamento.py</code> do capítulo 2. Faça na ordem.</div>",
+ "desafios": ["No cap. 1, implemente o ataque direcionado (o dígito vira um 3 específico) trocando o sinal do gradiente.", "No cap. 3, faça o cliente malicioso ser sutil (força 1,5) e veja se a detecção por distância ainda o acha.", "No cap. 7, compare σ = 0,12 e σ = 0,5 na suavização: troca de acurácia por raio.", "No cap. 10, acrescente o sinal \"domínio parecido com o da empresa\" (distância de edição do cap. 7 do livro de strings)."]
+}
